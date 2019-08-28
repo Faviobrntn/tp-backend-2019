@@ -24,6 +24,7 @@ Desarrollar un backend utilizando una API REST o GraphQL y un frontend parcial c
 * El tema y alcance del trabajo debe ser propuesto por los alumnos y aprobado por los docentes de la cátedra (o utilizar el del año 2017)
 
 #### 1.2 - Funcionalidad
+   
    *1.2.1 - Backend por API REST o GraphQL*
 
 * Debe permitir realizar uno o más ABMC por API. Los mismos dependen de la dificultad del trabajo propuesto y cantidad de integrantes. Los mismos deben ser acordados con los docentes.
@@ -36,6 +37,7 @@ Desarrollar un backend utilizando una API REST o GraphQL y un frontend parcial c
 * El resto de la funcionalidad puede utilizarse mediante una herramienta similar a postman, restclient, curl o wget.
 
 #### 1.3 - Planificación y documentación
+   
    *1.3.1 - Entregas*
 
 * El equipo deberá definir el alcance del trabajo práctico con el equipo docente. Indicando los criterios de aceptación.
@@ -54,6 +56,7 @@ Desarrollar un backend utilizando una API REST o GraphQL y un frontend parcial c
 
 2 - Criterio de correccion
 ---------------
+
 #### 2.1 - Sitio
 
 * Diseño adecuado de la API REST.
@@ -86,7 +89,6 @@ Desarrollar un backend utilizando una API REST o GraphQL y un frontend parcial c
     
 4 - Entrega final
 ---------------
-
 * La entrega final deberá hacerse enviando por email a los profesores la URL del repositorio de git. La fecha límite de entrega es dos días antes del cierre de regularidades, la misma debe incluir el código del trabajo y una defensa del mismo la cual debe haber sido pactada con anterioridad según la disponibilidad de los docente.
 
 * El archivo readme.md deberá ser modificado y deberá agregarse al final el tema y enunciado del trabajo práctico y alcance pactado con el docente, el trabajo, año de cursado e integrantes (legajo, nombre y apellido).
