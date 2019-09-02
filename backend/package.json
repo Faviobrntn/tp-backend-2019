@@ -4,8 +4,8 @@
 	"description": "backend del proyecto",
 	"main": "index.js",
 	"engines": {
-		"node": "11.15.0",
-		"npm": "6.11.2"
+		"node": "10.3.0",
+		"npm": "6.x"
 	},
 	"scripts": {
 		"start": "node index.js"
