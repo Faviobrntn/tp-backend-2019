@@ -9,6 +9,14 @@ Trabajo integrador final 2019 para la materia Técnicas y Tecnologías Avanzadas
 Participantes
 ---------------
 - (40012) Barnatan, Favio
+- (42743) De Waele, Ezequiel
+- (xxxxx) Rossi, Sebastian
+
+
+Tema elegido
+---------------
+Desarrollaremos la web de un hotel con funcionalidad para la reserva de habitaciones.
+
 
 
 1 - Enunciado
