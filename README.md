@@ -10,7 +10,7 @@ Participantes
 ---------------
 - (40012) Barnatan, Favio
 - (42743) De Waele, Ezequiel
-- (xxxxx) Rossi, Sebastian
+- (43776) Rossi, Sebastian
 
 
 Tema elegido
