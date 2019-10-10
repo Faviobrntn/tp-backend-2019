@@ -1,32 +1,25 @@
 const express = require('express');
-const mongoose = require('mongoose');
 const cors = require('cors');
-const methodOverride = require('method-override');
-const keys = require('./config/keys');
-
-// BASE DE DATOS
-// mongoose.connect('mongodb://localhost/nombre_db_mongo');
-mongoose.connect(keys.mongoURI);
+const morgan = require('morgan');
 
 const app = express();
+app.set('port', process.env.PORT || 5000);
+
+// BASE DE DATOS
+const { mongoose } = require('./models/db');
 
 // MIDDLEWARES
+app.use(morgan('dev'));
 app.use(express.json());
-app.use(cors());
-app.use(methodOverride());
+// app.use(cors());
+app.use(cors({origin: 'http://localhost:4200'}));
 
-// MODELOS
-//require('./models/Usuarios.js');
-// require('./models/pet.js')
 
 // RUTAS
-// require('./routes/authRoutes')(app);
 app.use(require('./routes/index.routes'));
 
-var router = express.Router();
-app.use(router);
 
 
-app.set('port', process.env.PORT || 5000);
-// const PORT = process.env.PORT || 5000;
-app.listen(app.get('port'));
+app.listen(app.get('port'), () => {
+    console.log('Servidor backend corriendo en el puerto: ', app.get('port'));
+});

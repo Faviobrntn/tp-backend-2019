@@ -1,7 +1,5 @@
-const mongoose = require('mongoose');
-const User = mongoose.model('usuarios');
+const User = require('../models/Usuario');
 
-// const ObjectId = mongoose.Types.ObjectId;
 const Usuarios = {};
 
 Usuarios.getAll = async (req, res, next) => {
@@ -26,7 +24,7 @@ Usuarios.nuevo = async (req, res, next) => {
 };
 
 
-Usuarios.editar = (req, res, next) => {
+Usuarios.editar = async (req, res, next) => {
     const { id } = req.params;
     const usuario = {
         nombre: req.body.nombre,
